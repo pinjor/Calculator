@@ -26,7 +26,7 @@ class CalculatorView extends StatelessWidget {
             height: 40.0,
           ),
           Calculatordisplay(
-            hint: "Enter Second number",
+            hint: "Enter third number",
             controller: calculatorController.display2controller,
             onChanged: (value) => calculatorController.updateDisplay2(value),
           ),
